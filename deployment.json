@@ -1,0 +1,28 @@
+{
+  "contract": {
+    "address": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0",
+    "abi": [
+      "constructor()",
+      "event Approval(address indexed owner, address indexed approved, uint256 indexed tokenId)",
+      "event ApprovalForAll(address indexed owner, address indexed operator, bool approved)",
+      "event Transfer(address indexed from, address indexed to, uint256 indexed tokenId)",
+      "function _tokenIds() view returns (uint256 _value)",
+      "function approve(address to, uint256 tokenId)",
+      "function balanceOf(address owner) view returns (uint256)",
+      "function getApproved(uint256 tokenId) view returns (address)",
+      "function getToken(uint256 id) view returns (string)",
+      "function isApprovedForAll(address owner, address operator) view returns (bool)",
+      "function mintToken(address to, string tokenURI) returns (uint256)",
+      "function name() view returns (string)",
+      "function ownerOf(uint256 tokenId) view returns (address)",
+      "function safeTransferFrom(address from, address to, uint256 tokenId)",
+      "function safeTransferFrom(address from, address to, uint256 tokenId, bytes data)",
+      "function setApprovalForAll(address operator, bool approved)",
+      "function supportsInterface(bytes4 interfaceId) view returns (bool)",
+      "function symbol() view returns (string)",
+      "function tokenURI(uint256 tokenId) view returns (string)",
+      "function transferFrom(address from, address to, uint256 tokenId)"
+    ],
+    "signerAddress": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"
+  }
+}
